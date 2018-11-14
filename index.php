@@ -64,10 +64,10 @@ register.</p>
 //$pwd = "Ruap1234";
 //$db = "ruapdb";
 
-$host = "localhost";
-$user = "mvrataric";
-$pwd = "demodmarina";
-$db = "ruap_db";
+$host = "mvrataric1-mysqldbserver.mysql.database.azure.com";
+$user = "mvrataric@mvrataric1-mysqldbserver";
+$pwd = "demodmarina1?";
+$db = "ruapDB";
 
 // Connect to database.
 $conn = mysqli_connect($host, $user, $pwd, $db);
